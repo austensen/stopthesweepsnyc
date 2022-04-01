@@ -17,7 +17,7 @@ load_dot_env(".env")
 # Free to sign up for API key here: https://account.mapbox.com/auth/signup/
 options(mapbox.accessToken = Sys.getenv("MAPBOX_TOKEN"))
 
-start_date <- "2021-03-01"
+start_date <- "2022-01-01"
 end_date <- as.character(today())
 
 complaint_types <- c('Encampment','Homeless Encampment','Homeless Person Assistance','Homeless Street Condition') %>% 
