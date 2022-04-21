@@ -1,6 +1,6 @@
 library(tidyverse)
 library(lubridate)
-library(sf)
+library(sf) # install instructions: https://github.com/r-spatial/sf
 library(leaflet)
 library(leaflet.mapboxgl)
 library(leafpop)
